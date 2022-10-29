@@ -1,23 +1,17 @@
 import "./App.css";
-import CakeContainer from "./components/CakeContainer";
-import IcecreamContainer from "./components/IcecreamContainer";
 import { Provider } from "react-redux";
 import store from "./redux/store";
+import NavBar from './components/NavBar/NavBar';
+import ProductList from "./components/ProductList/ProductList";
+
 
 
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-        <CakeContainer />
-        <IcecreamContainer />
-        {/* <HooksCakeContainer /> */}
-        {/* <BuyIceCream /> */}
-        {/* <CakeWithPaylod /> */}
-        {/* <ItemContainer cake /> */}
-        {/* <ItemContainer /> */}
-      </div>
+      <NavBar />
+      <ProductList />
     </Provider>
   );
 }

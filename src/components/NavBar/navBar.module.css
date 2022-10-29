@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:75%;
+    background-color: #22c55e;
+    padding: 1rem;
+    border-radius: 200px 10px 100px 10px;
+}
+.productNumber{
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width:4rem;
+    height: 3rem;
+    background-color: #22c55e;
+    padding: 1rem;
+    border-radius: 200px 10px 100px 10px;
+}
+.number{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292524;
+    color: white;
+
+}
